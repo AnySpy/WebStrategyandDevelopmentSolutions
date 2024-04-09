@@ -11,7 +11,8 @@ const readLine = require('readline');
 
 // Here we set up a readline interface.
 let rl = readLine.createInterface({
-    /* Input just sets the input, which is Bears.txt.
+    /* 
+    Input just sets the input, which is Bears.txt.
         For some reason, I needed to put require.resolve here. No idea why, but I just randomly found that on a StackOverflow page that had it as a solution.
         link: https://stackoverflow.com/questions/70909755/fs-readfilesync-says-no-such-file-or-directory-although-require-returns-the
         The comments help solve the problem and explain why, but I don't know why just ./Bears.txt doesn't work.

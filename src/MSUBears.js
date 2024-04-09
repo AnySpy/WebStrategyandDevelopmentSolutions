@@ -1,7 +1,7 @@
 /*
     This one is pretty much the c++ one, just with slight changes because of JavaScript's ✨ uniqueness ✨
 */
-for (var i = 1; i <= 100; ++i)
+for (let i = 1; i <= 100; ++i)
 {
     if (i % 3 != 0 && i % 5 != 0)
     {
